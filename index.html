@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site - Vamos contar </title>
+  <!--Link Style-->
+  <link rel="stylesheet" href="./style/style.css">
+  <!--Link Javascript-->
+  <script src="./javascript/script.js"></script>
+
+</head>
+<body>
+  <section>
+    <div class="titulo">
+      <h2>Vamos Contar</h2>
+    </div><!--Fechamento-->
+    <form>
+      <label for="input_inicio">Inicio:</label>
+      <input type="number" id="input_inicio">
+
+      <label for="input_fim">Fim:</label>
+      <input type="number" id="input_fim">
+
+      <label for="input_passo">Passo:</label>
+      <input type="number" id="input_passo">
+
+      <input type="button" value="contar" onclick="contar()" id="btn">
+    </form>
+    <div id="resultado">
+      <p>Preparando contagem ...</p>
+    </div>
+
+  </section>
+</body>
+</html>
